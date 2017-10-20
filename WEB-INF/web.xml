@@ -1,0 +1,33 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+    version="3.0">
+  <servlet>
+    <servlet-name>Plagiarism</servlet-name>
+    <servlet-class>CheckingPlagiarism</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Plagiarism</servlet-name>
+    <url-pattern>/Checking</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Plagiarism local</servlet-name>
+    <servlet-class>LocalP</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Plagiarism local</servlet-name>
+    <url-pattern>/local</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Plagiarism file</servlet-name>
+    <servlet-class>FilePlagiarism</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Plagiarism file</servlet-name>
+    <url-pattern>/File to File</url-pattern>
+  </servlet-mapping>
+</web-app>
+
