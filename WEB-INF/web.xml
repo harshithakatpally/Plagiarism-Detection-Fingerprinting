@@ -11,6 +11,7 @@
     <servlet-name>Plagiarism</servlet-name>
     <url-pattern>/Checking</url-pattern>
   </servlet-mapping>
+  
   <servlet>
     <servlet-name>Plagiarism local</servlet-name>
     <servlet-class>LocalP</servlet-class>
@@ -20,6 +21,7 @@
     <servlet-name>Plagiarism local</servlet-name>
     <url-pattern>/local</url-pattern>
   </servlet-mapping>
+
   <servlet>
     <servlet-name>Plagiarism file</servlet-name>
     <servlet-class>FilePlagiarism</servlet-class>
@@ -30,4 +32,3 @@
     <url-pattern>/File to File</url-pattern>
   </servlet-mapping>
 </web-app>
-

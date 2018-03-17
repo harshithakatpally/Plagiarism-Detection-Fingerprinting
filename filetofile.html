@@ -1,62 +1,64 @@
 <html>
-<head>
-	<title>FiletoFile</title>
-	<style>
-		h1{text-align:center;
-			color:#b41451;}
-		input[type=button] {
-    			width: 200px;
-			height: 50px;
-			text-align:center;
-    			padding: 12px 20px;
-    			margin: 8px 0;
-    			box-sizing: border-box;
-			border: 2px solid #B41451;
-			background-color:#b41437;
-			color:#ffffff;
-			font-size:20px;
-    			border-radius: 4px;}
-		input[type=file] {
-    			width: 250px;
-			height: 50px;
-			text-align:center;
-    			padding: 12px 20px;
-    			margin: 5px 0;
-    			box-sizing: border-box;
-			border: 2px solid #B41451;
-			background-color:#b41437;
-			color:#ffffff;
-			font-size:15px;
+	<head>
+		<title>FiletoFile</title>
+		<style>
+			h1{text-align:center;
+				color:#b41451;}
+			input[type=button] {
+    		width: 200px;
+				height: 50px;
+				text-align:center;
+    		padding: 12px 20px;
+    		margin: 8px 0;
+    		box-sizing: border-box;
+				border: 2px solid #B41451;
+				background-color:#b41437;
+				color:#ffffff;
+				font-size:20px;
+    		border-radius: 4px;
 			}
-		legend{font-size:30px;
-			color:#b41451;
+			input[type=file] {
+    		width: 250px;
+				height: 50px;
+				text-align:center;
+    		padding: 12px 20px;
+    		margin: 5px 0;
+    		box-sizing: border-box;
+				border: 2px solid #B41451;
+				background-color:#b41437;
+				color:#ffffff;
+				font-size:15px;
 			}
-		select{width:200px;
-			height:30px;}
-		form{width:600px;
-			text-align:center;
-			margin-left:370px;}
-		h3{font-size:20px;
-			color:#b41451;
+			legend{font-size:30px;
+				color:#b41451;
 			}
-	</style>
-</head>
+			select{width:200px;
+				height:30px;
+			}
+			form{width:600px;
+				text-align:center;
+				margin-left:370px;
+			}
+			h3{font-size:20px;
+				color:#b41451;
+			}
+		</style>
+	</head>
 
-<body>
-	<h1>Plagiarism Checker</h1></br></br>
-	<form action="File to File" method="post" enctype="multipart/form-data">
-		<fieldset>
-			<legend>Select files</legend></br>
-			 <h3>Select topic</h3>
-			<select name="nam">
+	<body>
+		<h1>Plagiarism Checker</h1></br></br>
+		<form action="File to File" method="post" enctype="multipart/form-data">
+			<fieldset>
+				<legend>Select files</legend></br>
+				<h3>Select topic</h3>
+				<select name="topic">
   				<option value="oops">oops</option>
   				<option value="java features">java features</option>
-			</select></br></br></br>
-			<input type="file" name="file1" value="Choose file 1"></input>
-			<input type="file" name="file2" value="Choose file 2"></input></br></br>
-			<input type="submit" value="Check plagiarism"></input></br></br>
-		</fieldset>
-	</form>
-	
-</body>
+				</select></br></br></br>
+				<input type="file" name="file1" value="Choose file 1"></input>
+				<input type="file" name="file2" value="Choose file 2"></input></br></br>
+				<input type="submit" value="Check plagiarism"></input></br></br>
+			</fieldset>
+		</form>
+	</body>
 </html>
